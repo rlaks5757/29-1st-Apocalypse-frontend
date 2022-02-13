@@ -28,7 +28,7 @@
 
 #### 1. Nav Bar
 
-- MouseOver, MouseOut 이벤트를 이용한 SubNav </br>
+- MouseOver, MouseOut 이벤트를 이용한 SubNav 구현 </br>
   Nav Menu에 MouseOver 시 Sub Menu Display: Block으로 변경</br>
   다른 Nav Menu에 MouseOver 시 기존에 열려있던 Sub Menu의 Display를 None으로 변경하고 해당 Sub Menu Display를 Block으로 변경함.</br>
   Sub Menu에서 MouseLeave 시 Sub Menu Display: None으로 변경</br>
