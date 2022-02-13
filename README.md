@@ -38,7 +38,7 @@
   제품 카테고리 API의 상태를 저장하고 Map 함수를 사용하여 Component를 재사용함.</br>
 
 - 로그인 페이지 및 Token 저장</br>
-  Login Complete Message를 서버로부터 수신 시 해당 토큰을 sessionStorage에 저장함.</br>
+  ID, PAWSSWORD Value의 상태를 저장하고 서버로 저장된 정보를 보낸 후 Login 정보가 일치하면 서버로부터 받은 Login Token을 sessionStorage에 저장함.</br>
 
 - Token 유무에 따른 Login, MyPage 변환</br>
   SessionStorage에 Login Token 존재 유무에 따라 조건부 렌더링을 함.</br>
