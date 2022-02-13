@@ -41,14 +41,14 @@
   Login Complete Message를 서버로부터 수신 시 해당 토큰을 sessionStorage에 저장함.</br>
 
 - Token 유무에 따른 Login, MyPage 변환</br>
-  sessionStorage에 Login Token 존재 유무에 따라 조건부 렌더링을 함.</br>
+  SessionStorage에 Login Token 존재 유무에 따라 조건부 렌더링을 함.</br>
   Login Token이 없을 시 로그인 화면, Login Token이 존재하면 마이페이지 이동화면 구현</br>
 
 - 검색 API를 통한 제품 검색</br>
   Input Value의 상태를 저장하고 Enter Key Event가 발생하면 서버에 해당 Value의 정보를 검색 요청하고 화면에 구현함.</br>
 
 - 로그인 Token 보유 시 유저 장바구니 목록 및 제품 삭제 구현</br>
-  Login Token이 없을 시 장바구니가 비어있음, Login Token이 존재하면 해당 유저의 장바구니 정보를 화면에 구현함.</br>
+  SessionStorage에 Login Token이 없을 시 장바구니가 비어있음, Login Token이 존재하면 해당 유저의 장바구니 정보를 화면에 구현함.</br>
   Delete Method를 사용하여 삭제 버튼 클릭 시 해당 제품에 대한 정보를 서버에 삭제 요청하고 서버에 해당 유저의 장바구니 정보를 다시 요청하고 화면에 구현함.</br>
 
 #### 2. 제품 목록 리스트
